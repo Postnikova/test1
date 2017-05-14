@@ -18,4 +18,5 @@ TEMPLATE = app
 SOURCES += main.cpp
 
 DISTFILES += \
-    .gitignore
+    .gitignore \
+    1.dat
