@@ -15,8 +15,12 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    person.cpp
 
 DISTFILES += \
     .gitignore \
     1.dat
+
+HEADERS += \
+    person.h
